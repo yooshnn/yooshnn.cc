@@ -1,0 +1,17 @@
+@import url('style-welcome.css');
+@import url('style-content.css');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.welcome {
+    height: 100vh;
+    background-color: #2e2e2e;
+}
