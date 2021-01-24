@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    margin: 2em;
+}
+.block {
+    display: flex-box;
+    margin: 4em;
+}
