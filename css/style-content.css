@@ -1,12 +1,30 @@
 .content {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: center;
     font-family: 'Quicksand', sans-serif;
+    margin: 2em 0 0 0;
 }
-.container {
-    margin: 2em;
+.column {
+    display: flex;
+}
+.col-l {
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-basis: 30%;
+    align-items: flex-start;
 }
 .block {
     display: flex-box;
-    margin: 4em;
+    margin: 2em 1em 0 0;
+    align-self: stretch;
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+      flex-direction: column;
+    }
+    .block {
+      margin: 1em;
+    }
 }
